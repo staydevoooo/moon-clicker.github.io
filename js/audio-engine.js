@@ -97,5 +97,25 @@ var antAudio = function() {
     };
 }();
 
+var audioFiles = {
+    "swish": {
+        "name": "purchase",
+        "url": "//moon-clicker.github.io/audio/purchase.wav",
+        "playMode": "multiple",
+        "currentPlayNum": 0    
+    },
+    "correct": {
+        "name": "click",
+        "url": "//moon-clicker.github.io/audio/click.wav",
+        "playMode": "multiple",
+        "currentPlayNum": 0
+    },
+    "nul": {
+        "name": "nul",
+        "url": "nul",
+        "playMode": "single",
+        "currentPlayNum": 0
+    }   
+};
 // initalise and loadAudio
 antAudio.init(audioFiles);

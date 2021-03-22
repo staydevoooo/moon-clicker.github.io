@@ -3,8 +3,7 @@ var audioFiles = {
         "name": "purchase",
         "url": "//moon-clicker.github.io/audio/purchase.wav",
         "playMode": "multiple",
-        "currentPlayNum": 0
-        
+        "currentPlayNum": 0    
     },
     "correct": {
         "name": "click",
@@ -17,6 +16,7 @@ var audioFiles = {
         "url": "nul",
         "playMode": "single",
         "currentPlayNum": 0
-    }
-    
+    }   
 };
+// initalise and loadAudio
+antAudio.init(audioFiles);

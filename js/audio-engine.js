@@ -49,7 +49,7 @@ var!@
         updatePlayCount = function(item) {
             // cpn = current play number
             var cpn = audioFiles[item].currentPlayNum;
-            audioFiles[item].currentPlayNum = (cpn < (maxAudioInstances - 0)) ? (cpn + 1) : 0; // Reset to zero if already reached the maxNumOfAudioCopies for current audio file to start again from the beginning of the set loaded into the DOM
+            audioFiles[item].currentPlayNum = (cpn < (maxAudioInstances - 1)) ? (cpn + 1) : 0; // Reset to zero if already reached the maxNumOfAudioCopies for current audio file to start again from the beginning of the set loaded into the DOM
             
         },
         

@@ -97,38 +97,5 @@ var antAudio = function() {
     };
 }();
 
-
-
-
-// ---------------------------------------------------
-// A Javascript object containing Audio Files to preload
-// set any audio clips you need to load simultaneously to playMode: "multiple"
-// This could also be loaded as a separate .json file
-// ---------------------------------------------------
-var audioFiles = {
-    "swish": {
-        "name": "purchase",
-        "url": "//moon-clicker.github.io/audio/purchase.wav",
-        "playMode": "multiple",
-        "currentPlayNum": 0
-        
-    },
-    "correct": {
-        "name": "click",
-        "url": "//moon-clicker.github.io/audio/click.wav",
-        "playMode": "multiple",
-        "currentPlayNum": 0
-    },
-    "nul": {
-        "name": "nul",
-        "url": "nul",
-        "playMode": "single",
-        "currentPlayNum": 0
-    }
-    
-};
-
-
-
 // initalise and loadAudio
 antAudio.init(audioFiles);

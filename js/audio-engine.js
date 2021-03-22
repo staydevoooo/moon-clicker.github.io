@@ -1,7 +1,7 @@
 var antAudio = function() {
     "use strict";
     var
-        maxAudioInstances = 499, // Number of unique copies of audio to load into memory for any audio set to "multiple" (defaults to 5)
+        maxAudioInstances = 50, // Number of unique copies of audio to load into memory for any audio set to "multiple" (defaults to 5)
         audioClips = {}, // all instances of pre-loaded Audio stored here for access from the playAudio() function
         loadedCount = 0, // keeps track of how many audio clips have been loaded
         

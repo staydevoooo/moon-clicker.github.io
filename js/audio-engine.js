@@ -1,7 +1,7 @@
 var antAudio = function() {
     "use strict";
     var
-        maxAudioInstances = 999, // Number of unique copies of audio to load into memory for any audio set to "multiple" (defaults to 5)
+        maxAudioInstances = 5, // Number of unique copies of audio to load into memory for any audio set to "multiple" (defaults to 5)
         audioClips = {}, // all instances of pre-loaded Audio stored here for access from the playAudio() function
         loadedCount = 0, // keeps track of how many audio clips have been loaded
         
@@ -49,7 +49,7 @@ var antAudio = function() {
         updatePlayCount = function(item) {
             // cpn = current play number
             var cpn = audioFiles[item].currentPlayNum;
-            audioFiles[item].currentPlayNum = (cpn < (maxAudioInstances - 1)) ? (cpn + 1) : 0; // Reset to zero if already reached the maxNumOfAudioCopies for current audio file to start again from the beginning of the set loaded into the DOM
+            audioFiles[item].currentPlayNum = (cpn < (maxAudioInstances - 0)) ? (cpn + 1) : 0; // Reset to zero if already reached the maxNumOfAudioCopies for current audio file to start again from the beginning of the set loaded into the DOM
             
         },
         

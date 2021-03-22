@@ -1,11 +1,11 @@
 var audioFiles = {
-    "swish": {
+    "purchase": {
         "name": "purchase",
         "url": "//moon-clicker.github.io/audio/purchase.wav",
         "playMode": "multiple",
         "currentPlayNum": 0    
     },
-    "correct": {
+    "click": {
         "name": "click",
         "url": "//moon-clicker.github.io/audio/click.wav",
         "playMode": "multiple",

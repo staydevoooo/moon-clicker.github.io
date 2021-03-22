@@ -48,13 +48,13 @@ var antAudio = function() {
     audioFiles = {
         purchase: {
             name: "purchase",
-            url: "https://moon-clicker.github.io/audio/purchase.wav",
+            url: "//moon-clicker.github.io/audio/click.wav",
             playMode: "multiple",
             currentPlayNum: 0
         },
         click: {
             name: "click",
-            url: "https://moon-clicker.github.io/audio/click.wav",
+            url: "//moon-clicker.github.io/audio/click.wav",
             playMode: "multiple",
             currentPlayNum: 0
         }

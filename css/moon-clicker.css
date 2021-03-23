@@ -171,6 +171,7 @@ main3 {
 	background-clip: content-box;
 	box-shadow: inset 0 0 100px black;
 	background: rgba(0, 0, 0, 0.3);
+	border-right: 2.5px solid white;
 }
 
 .panel2 {
@@ -180,8 +181,6 @@ main3 {
 	height: 100%!important;
 	align: center;
 	box-shadow: inset 0 0 100px black;
-	border-right: 2.5px solid white;
-	border-left: 2.5px solid white;
 }
 
 .panel3 {
@@ -191,4 +190,5 @@ main3 {
 	height: 100%;
 	box-shadow: inset 0 0 100px black;
 	background: rgba(0, 0, 0, 0.3);
+	border-left: 2.5px solid white;
 }

@@ -177,7 +177,7 @@ main3 {
 	padding-top: 30px;
 	float: left;
 	width: 40%;
-	height: 100%;
+	height: 100%!important;
 	align: center;
 	box-shadow: inset 0 0 100px black;
 	border-right: 2.5px solid white;
